@@ -1,3 +1,5 @@
+// 2. Given that an EMPLOYEE class contains following data members: Employee number,Employee name, Basic, DA, IT, Net Salary. Write a C++ program to read the data of N employees and compute Net salary of each employee (DA=52% of Basic and Income Tax (IT)=30% of the gross salary).
+
 #include <iostream>
 using namespace std;
 
