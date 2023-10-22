@@ -1,3 +1,5 @@
+// WAP in C++ to calc area & perimeter of rect.
+
 #include <iostream>
 using namespace std;
 
