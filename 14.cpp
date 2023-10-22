@@ -1,3 +1,9 @@
+// 14. Write a C++ program to implement the following class hierarchy of Multilevel Inheritance : 
+        // Student: id, name.
+        //StudentExam (derived from Student): Accept Marks of 4 subjects
+        //StudentResult (derived from StudentExam) : Calculate Percentage 
+        //Define appropriate functions to accept and display details.
+
 #include<iostream>
 #include<stdio.h>
 
