@@ -1,4 +1,4 @@
-//1. Write a C++ Program which creates and uses array of objects to display Names, Roll No., and grades of 10 students who have appeared in the examination.
+// 1. Write a C++ Program which creates and uses array of objects to display Names, Roll No., and grades of 10 students who have appeared in the examination.
 
 #include <iostream>
 using namespace std;
