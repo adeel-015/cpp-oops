@@ -1,3 +1,5 @@
+// 6. WAP to copy contents of one object to another object using copy constructor
+
 #include <iostream>
 using namespace std;
 
