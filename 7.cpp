@@ -1,3 +1,5 @@
+// 7. Write a program to find greater amomg two numbers using Friend Function. Note: One number is a member of one class and the other one belongs to another class.
+
 #include <iostream>
 using namespace std;
 
