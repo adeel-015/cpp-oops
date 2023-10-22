@@ -1,3 +1,5 @@
+// Create a class of student type and display your details.
+
 #include <iostream>
 using namespace std;
 class student{
