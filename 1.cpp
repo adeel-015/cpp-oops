@@ -4,10 +4,10 @@
 using namespace std;
 
 class Student {
-    public:
     string name;
     int roll_no;
     char grade;
+    public:
     void info(){
         cout << "Enter Name: ";
         getline(cin,name);
