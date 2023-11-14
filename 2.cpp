@@ -21,7 +21,7 @@ class employee{
         cin >> basic;
     }
     int compute(){
-        DA = basic * 0.62;
+        DA = basic * 0.52;
         gross_salary = basic + DA;
         tax = gross_salary * 0.30;
         net_salary = gross_salary - tax;
