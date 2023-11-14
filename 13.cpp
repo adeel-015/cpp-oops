@@ -1,4 +1,5 @@
-// 13. Write a C++ program to add two numbers using single inheritance. Accept these two numbers from the user in base class and display the sum of these two numbers in derived class.
+// 13. Write a C++ program to add two numbers using single inheritance. Accept these two numbers from the user in base class 
+//     and display the sum of these two numbers in derived class.
 
 #include<iostream>
 
