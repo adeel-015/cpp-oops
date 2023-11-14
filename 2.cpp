@@ -6,10 +6,10 @@
 using namespace std;
 
 class employee{
-    public:
     int Employee_no;
     string Employee_name;
     float basic, DA, tax, gross_salary, net_salary;
+    public:
     void readData(){
         cout << "-----Details of employee:----- " << endl;
         cout << "Enter Employee No.:- ";
