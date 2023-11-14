@@ -1,11 +1,13 @@
-// 11. Write a program to illustrate how Constructors are implemented and the order in which they are called when the classes are inherited. Use three classes Alpha, Beta,Gamma, where Alpha and beta are base classes and gamma is inherited from Alpha and beta.
+// 11. Write a program to illustrate how Constructors are implemented and the order in which they are called 
+//     when the classes are inherited. Use three classes Alpha, Beta,Gamma, 
+//     where Alpha and beta are base classes and gamma is inherited from Alpha and beta.
 
 #include<iostream>
 
 using namespace std;
 
 class alpha{
-        int x;
+    int x;
     public:
         alpha(int i)
         {
