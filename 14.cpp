@@ -33,9 +33,8 @@ class Student
 };
 class StudentExam : public Student      //Class StudentExam derived from Class Student
 {
-    public:
+    protected:
         int sub1, sub2, sub3, sub4;
-        float per;
     public:
         void accept_data()
         {
@@ -60,6 +59,7 @@ class StudentExam : public Student      //Class StudentExam derived from Class S
 };
 class StudentResult : public StudentExam      //Class StudentResult derived from Class StudentExam
 {
+        float per;
     public:
         void calculate ()
         {
