@@ -6,10 +6,8 @@ using namespace std;
 class Class_2;
 
 class Class_1 {
-private:
     int data1;
-
-public:
+    public:
     Class_1(int value) : data1(value) {}
 
     friend void swapData(Class_1& obj1, Class_2& obj2);
@@ -20,10 +18,8 @@ public:
 };
 
 class Class_2 {
-private:
     int data2;
-
-public:
+    public:
     Class_2(int value) : data2(value) {}
 
     friend void swapData(Class_1& obj1, Class_2& obj2);
