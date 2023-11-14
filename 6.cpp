@@ -4,10 +4,8 @@
 using namespace std;
 
 class MyClass {
-private:
     int data;
-
-public:
+    public:
     MyClass(int value) : data(value) {}
     MyClass(const MyClass &other) : data(other.data) {}
     void display() {
