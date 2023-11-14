@@ -1,4 +1,5 @@
-// 4. Write a C++ program to design a class having a static member function showcount() which displays the no. of objects created.
+// 4. Write a C++ program to design a class having a static member function showcount() 
+//    which displays the no. of objects created.
 
 #include <iostream>
 using namespace std;
