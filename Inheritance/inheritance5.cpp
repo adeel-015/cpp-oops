@@ -3,24 +3,26 @@
 
 using namespace std;
 
-//implementing multiple inheritance
+//implementing Multiple Inheritance
+
 class Mother{
     public:
         string Mname;
 };
+
 class Father{
     public:
         string Fname;
 };
 
-class Child : public Mother,public Father{ //Mother and Father class inherited in child class
+class Child : public Mother , public Father{ //Mother and Father class inherited in Child class
     public:
         string Cname;
 
         void displaydetails(){
-            cout<<"child name: "<<Cname<<endl;
-            cout<<"Mother name: "<<Mname<<endl; //Here Mname attribute is inherited from Mother class
-            cout<<"Father name: "<<Fname<<endl;
+            cout << "child name: " << Cname << endl;
+            cout << "Mother name: " << Mname << endl; //Here Mname attribute is inherited from Mother class
+            cout << "Father name: " << Fname << endl; //Here Fname attribute is inherited from Father class
         }
 };
 
