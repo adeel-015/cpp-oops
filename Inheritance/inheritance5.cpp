@@ -3,33 +3,6 @@
 
 using namespace std;
 
-class Animal{
-    public:
-        int age;
-        string color;
-
-        void run(){
-            cout<<"Running"<<endl;
-        }
-};
-//Implementing single inheritance
-class dog : public Animal{  
-     public:
-        string type;
-
-        void display(){
-        cout<<"age: "<<age<<endl;
-        cout<<"color: "<<color<<endl;
-        cout<<"type: "<<type<<endl;
-      }
-};
-
-//Implementing multilevel inheritance
-class Puppy: public dog{
-    public:
-         string petname;
-};
-
 //implementing multiple inheritance
 class Mother{
     public:
@@ -40,30 +13,22 @@ class Father{
         string Fname;
 };
 
-class Child : public Mother,public Father{
+class Child : public Mother,public Father{ //Mother and Father class inherited in child class
     public:
         string Cname;
 
         void displaydetails(){
             cout<<"child name: "<<Cname<<endl;
-            cout<<"Mother name: "<<Mname<<endl;
+            cout<<"Mother name: "<<Mname<<endl; //Here Mname attribute is inherited from Mother class
             cout<<"Father name: "<<Fname<<endl;
         }
 };
 
 int main(){
-    Puppy p;
-    p.age=3;
-    p.color="black";
-    p.petname="tommy";
-    p.run();
-    p.type="pug";
-    p.display();
-    cout<<endl;
-    Child c;
-    c.Fname="John";
-    c.Mname="Angel";
-    c.Cname="Tom";
-    c.displaydetails();
+    Child c; //object of child class
+    c.Fname="John"; //inherited attribute from Father class in child class
+    c.Mname="Angel"; //inherited attribute from Mother class in child class
+    c.Cname="Tom";   //attribute of child class itself
+    c.displaydetails(); 
     return 0;
 }
